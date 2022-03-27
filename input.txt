@@ -1,1 +1,1 @@
-INSERT INTO DVD_RENTAL VALUES(1,"SHAWSHANK REDEMPTION",1994)
+Insert into dvd_rental# (id,name,year) values (1,ss,1994)

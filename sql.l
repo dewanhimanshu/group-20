@@ -31,7 +31,7 @@ digit [0-9]
 
 , { return comma; } //Comma
 
-.|[\n]   {} //Others
+.|[\n]   { return  *yytext;} //Others
 
 %%
 

@@ -820,7 +820,7 @@ case 13:
 /* rule 13 can match eol */
 YY_RULE_SETUP
 #line 34 "sql.l"
-{} //Others
+{ return  *yytext;} //Others
 	YY_BREAK
 case 14:
 YY_RULE_SETUP

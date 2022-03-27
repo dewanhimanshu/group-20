@@ -1,3 +1,8 @@
-%option caseless  lex -i filename.l
 (?i:word)
 (W|w)(O|o)(R|r)(D|d)
+
+can i change position of insert ans idetifiers
+
+
+INSERT INTO DVD_RENTAL VALUES(1,"SHAWSHANK REDEMPTION",1994)
+INSERT INTO _I VALUES(1,"SHAWSHANK REDEMPTION",1994)
