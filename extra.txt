@@ -1,0 +1,3 @@
+%option caseless  lex -i filename.l
+(?i:word)
+(W|w)(O|o)(R|r)(D|d)
