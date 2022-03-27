@@ -1,8 +1,32 @@
+1. How to write lowercase in SQL
 (?i:word)
 (W|w)(O|o)(R|r)(D|d)
 
-can i change position of insert ans idetifiers
+2.How conflit resolution happens in yacc?
+3. Can we use ambiguous grammers in yacc? (How ambiguity is made like eg)
+4. How conflits are resolved in yacc?
+5. / to follow additional pattern 
+6. Conflit resoltion in lex 
+
+
+
+
+
+
+
+Queries(To Test):
 
 
 INSERT INTO DVD_RENTAL VALUES(1,"SHAWSHANK REDEMPTION",1994)
-INSERT INTO _I VALUES(1,"SHAWSHANK REDEMPTION",1994)
+insert into dvd_rental values(1,"shawshank redemption",1994)
+Insert Into dvd_rental VALUES(1,'shawshank redemption',1994)
+Insert into dvd_rental (id,name,year) values (1,'shawshank redemption',1994)
+
+
+Insert into dvd_rental (id,name,year) values (2,"The Godfather")
+into dvd_rental (id,name,year) values
+Insert into dvd_rental (id,name,year) values (2,shawshank$$redemption) 
+
+
+6.Always prefer a longest prefix to shotest prefix
+    if longest prefix matches both prefer the pattern listed first
